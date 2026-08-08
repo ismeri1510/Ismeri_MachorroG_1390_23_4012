@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi página</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='estilos.css') }}"
+    />
   </head>
 
   <body>
@@ -25,85 +29,19 @@
       <h2>Ismeri</h2>
       <p>Estudiante de Ingeniería en Sistemas</p>
 
-      <h3>Sobre mí</h3>
-      <p>Hola, soy Ismeri, estudiante de Ingeniería en Sistemas.</p>
+      <h3>DESARROLLO WEB</h3>
+      <p>Hola, soy Ismeri, estoy cursando desarrollo web.</p>
     </section>
-
-    <section>
-      <h2>Mis cursos</h2>
-
-      <ul>
-        <li>Curso de Redes</li>
-        <li>Curso de Desarrollo Web</li>
-        <li>Curso de Bases de Datos</li>
-      </ul>
-
-      <h3>Horario</h3>
-
-      <table border="1">
-        <tr>
-          <th>Día</th>
-          <th>Hora</th>
-          <th>Curso</th>
-        </tr>
-
-        <tr>
-          <td>Lunes</td>
-          <td>8:00 - 10:00</td>
-          <td>Curso de Redes</td>
-        </tr>
-
-        <tr>
-          <td>Miércoles</td>
-          <td>10:00 - 12:00</td>
-          <td>Curso de Desarrollo Web</td>
-        </tr>
-
-        <tr>
-          <td>Viernes</td>
-          <td>14:00 - 16:00</td>
-          <td>Curso de Bases de Datos</td>
-        </tr>
-      </table>
-    </section>
-
-    <article>
-      <h2>Experiencia</h2>
-
-      <p>
-        Aprendí que
-        <span class="destacado">CSS</span>
-        tiene tres formas de aplicarse.
-      </p>
-    </article>
 
     <aside>
       <details>
-        <summary>¿Qué es HTML?</summary>
-        <p>Es un lenguaje de marcado para crear páginas web.</p>
+        <summary>¿Como me siento en el parcial?</summary>
+        <p>NERVIOSA.</p>
       </details>
     </aside>
 
-    <section>
-      <h2>Dejar un mensaje</h2>
-
-      <form action="/pagina3" method="POST">
-        <label>Nombre:</label>
-        <input type="text" name="nombre" required />
-
-        <br /><br />
-
-        <label>Mensaje:</label>
-        <textarea name="mensaje" required></textarea>
-
-        <br /><br />
-
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
-
     <footer>
-      <p>2026 Ismeri</p>
+      <p>Ismeri 1390-23-4012</p>
     </footer>
   </body>
 </html>
