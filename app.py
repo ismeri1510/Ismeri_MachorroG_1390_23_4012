@@ -8,7 +8,7 @@ def pagina1():
     return render_template("index.html")
 
 @app.route("/pagina1")
-def prueba():
+def cursos():
     return render_template("pagina1.html")
 
 
@@ -18,17 +18,15 @@ def tabla2():
 
 
 @app.route("/pagina3", methods=["GET", "POST"])
-def pagina3():
+def comentar():
 
-    # GET: muestra el formulario
+   
     if request.method == "GET":
         return render_template("pagina3.html")
 
-    # POST: recibe los datos del formulario
     nombre = request.form["nombre"]
     mensaje = request.form["mensaje"]
 
-    # Envía los datos a pagina4.html
     return render_template(
         "pagina4.html",
         nombre=nombre,
@@ -37,7 +35,7 @@ def pagina3():
 
 
 @app.route("/pagina4")
-def pagina4():
+def parrafo():
     return render_template("pagina4.html")
 
 
