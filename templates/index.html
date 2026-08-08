@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi página</title>
+  </head>
+
+  <body>
+    <nav>
+      <a href="/">Inicio</a>
+      <a href="/pagina1">Pagina1</a>
+      <a href="/pagina2">Página 2</a>
+      <a href="/pagina3">Pagina3</a>
+      <a href="/pagina4">Página 4</a>
+    </nav>
+
+    <section id="perfil">
+      <img
+        src="https://www.guatemala.com/aprende/_next/image?url=https%3A%2F%2Fwww.guatemala.com%2Fwp-content%2Fuploads%2F2016%2F09%2Fguatemala-universidadmarianogalvez.jpg&w=1080&q=75"
+        alt="Imagen de perfil"
+        width="300"
+      />
+
+      <h2>Ismeri</h2>
+      <p>Estudiante de Ingeniería en Sistemas</p>
+
+      <h3>Sobre mí</h3>
+      <p>Hola, soy Ismeri, estudiante de Ingeniería en Sistemas.</p>
+    </section>
+
+    <section>
+      <h2>Mis cursos</h2>
+
+      <ul>
+        <li>Curso de Redes</li>
+        <li>Curso de Desarrollo Web</li>
+        <li>Curso de Bases de Datos</li>
+      </ul>
+
+      <h3>Horario</h3>
+
+      <table border="1">
+        <tr>
+          <th>Día</th>
+          <th>Hora</th>
+          <th>Curso</th>
+        </tr>
+
+        <tr>
+          <td>Lunes</td>
+          <td>8:00 - 10:00</td>
+          <td>Curso de Redes</td>
+        </tr>
+
+        <tr>
+          <td>Miércoles</td>
+          <td>10:00 - 12:00</td>
+          <td>Curso de Desarrollo Web</td>
+        </tr>
+
+        <tr>
+          <td>Viernes</td>
+          <td>14:00 - 16:00</td>
+          <td>Curso de Bases de Datos</td>
+        </tr>
+      </table>
+    </section>
+
+    <article>
+      <h2>Experiencia</h2>
+
+      <p>
+        Aprendí que
+        <span class="destacado">CSS</span>
+        tiene tres formas de aplicarse.
+      </p>
+    </article>
+
+    <aside>
+      <details>
+        <summary>¿Qué es HTML?</summary>
+        <p>Es un lenguaje de marcado para crear páginas web.</p>
+      </details>
+    </aside>
+
+    <section>
+      <h2>Dejar un mensaje</h2>
+
+      <form action="/pagina3" method="POST">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required />
+
+        <br /><br />
+
+        <label>Mensaje:</label>
+        <textarea name="mensaje" required></textarea>
+
+        <br /><br />
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>2026 Ismeri</p>
+    </footer>
+  </body>
+</html>
